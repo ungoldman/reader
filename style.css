@@ -1,0 +1,31 @@
+html, body { height: 100% }
+
+.sidebar a:active,
+.sidebar a:focus,
+.sidebar a:hover { text-decoration: none }
+
+#app {
+  height: 100%;
+}
+
+.sidebar {
+  background: #fafafa;
+  border-right: 1px solid #eee;
+}
+.sidebar .field { margin-bottom: 1em }
+
+.main {
+  background: #fff;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.articles {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: auto;
+}

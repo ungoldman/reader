@@ -1,0 +1,41 @@
+{
+  "name": "reader",
+  "description": "RSS Feed Reader built with Electron.",
+  "version": "1.0.0",
+  "author": "Nate Goldman <ungoldman@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ungoldman/reader/issues"
+  },
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "choo": "^6.7.0",
+    "choo-devtools": "^2.3.3",
+    "electron-context-menu": "^0.9.1",
+    "rss-parser": "^3.0.1",
+    "style.css": "^1.0.0-beta-1"
+  },
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "standard": "^10.0.3"
+  },
+  "homepage": "https://github.com/ungoldman/reader",
+  "keywords": [
+    "app",
+    "atom",
+    "electron",
+    "feed",
+    "foss",
+    "reader",
+    "rss"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungoldman/reader.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "standard"
+  }
+}
